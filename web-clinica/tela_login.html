@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Clínica</title>
+
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  .banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color:#04AA6D;
+}
+
+.firstdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(17, 105, 14);
+  width: 30%;
+}
+
+.secunddiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+
+}
+  
+  input[type=text], select {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #2e8133;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #333;
+    padding: 20px;
+    margin: 20%;
+    height: 600px;
+  }
+  
+  .col-25 {
+    width: 50%;
+    margin-top: 6px;
+    color: aliceblue;
+  }
+  
+  .col-75 {
+    width: 300px;
+    margin-top: 6px;
+  }
+  
+
+  .btn-entrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="banner">
+    <div class="firstdiv"><h2>Logo Clínica</h2></div>
+    <div class="secunddiv"><h1>Pagina de Login</h1></div>
+  </div>
+    <div class="container">
+        <form action="lista_pacientes.html">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">Email</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="email" name="email" placeholder="Your name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">PassWord</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="password" name="password" placeholder="Your last name..">
+                </div>
+            </div>
+            <br>
+            <div class="btn-entrar">
+                <input type="submit" value="Entrar"/>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

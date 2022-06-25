@@ -1,0 +1,112 @@
+@import url(../global-styles.css);
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    height: 100%;
+    width: 50%;
+}
+
+section.welcome-container {
+    background: url(../../assets/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2f54e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.welcome-container > h1 {
+    font-weight: 100;
+    font-size: 2em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat !important;
+}
+
+section.login-section {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+}
+
+section.login-section h1 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    font-family: Montserrat !important;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 400px;
+}
+
+div.input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+div.checkbox-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+}
+
+div.checkbox-container > input {
+    height: 17px;
+    width: 17px;
+    margin-right: 7px;
+}
+
+label {
+    font-size: 1.1em;
+    font-weight: thin;
+}
+
+input {
+    font-size: 1em;
+    padding: 0.6em;
+    border-radius: 7px;
+    border: 1px solid rgb(212, 212, 212);
+    margin-top: 5px;
+}
+
+input:focus {
+    outline: 1px solid rgb(212, 212, 212);
+}
+
+button {
+    background-color: #2f54e9;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    font-family: Montserrat !important;
+    font-size: 1.1em;
+}
+
+@media screen and (max-width: 900px) {
+    section {
+        width: 100%;
+    }
+
+    section.welcome-container {
+        display: none;
+    }
+}

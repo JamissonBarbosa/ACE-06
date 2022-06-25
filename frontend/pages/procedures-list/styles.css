@@ -1,6 +1,7 @@
+@import url(../global-styles.css);
+
 body {
     background-color: #999;
-    font-family: arial;
 }
 
 .banner {

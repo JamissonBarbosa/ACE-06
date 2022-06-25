@@ -1,5 +1,8 @@
+@import url(../global-styles.css);
+
 * {
     box-sizing: border-box;
+    background-color: #999;
 }
 
 .banner {
@@ -23,61 +26,76 @@
     justify-content: center;
     width: 70%;
 }
-  
-input[type=text], select {
-    width: 90%;
+
+input[type=text], select, textarea {
+    width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
 }
-  
+
 label {
     padding: 12px 12px 12px 0;
     display: inline-block;
 }
-  
+
 input[type=submit] {
-    background-color: #2e8133;
+    width: 75%;
+    background-color: #04AA6D;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    float: right;
 }
-  
+
 input[type=submit]:hover {
-    opacity: 0.8;
+    background-color: #45a049;
 }
-  
+
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 15%;
     border-radius: 5px;
-    background-color: #333;
+    background-color: #999;
     padding: 20px;
-    margin: 20%;
-    height: 600px;
+    border: 2px solid #ccc
 }
-  
+
 .col-25 {
-    width: 50%;
+    float: left;
+    width: 25%;
     margin-top: 6px;
-    color: aliceblue;
 }
-  
+
 .col-75 {
-    width: 300px;
+    float: left;
+    width: 75%;
     margin-top: 6px;
 }
-  
-.btn-entrar{
+
+.btn-cad {
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
 }
-  
+
+.btn-cad a {
+    background-color:#246d28;
+    text-decoration: none;
+    width: 80px;
+    height: 40px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 @media screen and (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
         width: 100%;

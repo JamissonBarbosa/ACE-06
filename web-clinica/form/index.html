@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="banner">
+            <div class="firstdiv">Logoooo</div>
+            <div class="secunddiv"><h1>Pagina de Cadastro</h1></div>
+        </div>
+        <div class="container">
+            <h2>Formulário de Cadastro</h2>
+            <form action="/action_page.php">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">Nome</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Nome...">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Sobrenome</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Sobrenome...">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="country">Paciente</label>
+                    </div>
+                    <div class="col-75">
+                    <select id="country" name="country">
+                        <option value="australia">Favorito</option>
+                        <option value="canada">Sim</option>
+                        <option value="usa">Não</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Comentário</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Escreva um comentário.." style="height:200px"></textarea>
+                    </div>
+                </div>
+                <br>
+                <div class="btn-cad">
+                    <a href="lista_pacientes.html">Cadastrar</a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

@@ -14,6 +14,8 @@ section {
 
 section.welcome-container {
     background: url(../../assets/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #2f54e9;
     display: flex;
     justify-content: center;

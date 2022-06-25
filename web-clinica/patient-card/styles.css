@@ -1,0 +1,75 @@
+body {
+    background-color: #999;
+    font-family: arial;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color:#04AA6D;
+}
+
+.firstdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(17, 105, 14);
+    width: 30%;
+}
+
+.secunddiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.patient-container-title {
+    text-align: center;
+}
+
+.card {
+    background-color: #555;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+        
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+        
+.btn .voltar {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #FF6347;
+    cursor: pointer;
+    font-size: 18px;
+    width: 24.7%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn .exec {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #228B22;
+    cursor: pointer;
+    font-size: 18px;
+    width: 24.7%;
+    text-align: center;
+    text-decoration: none;
+}
+        
+.btn a:hover {
+    opacity: 0.7;
+}

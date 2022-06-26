@@ -8,29 +8,79 @@
         <title>Pacientes</title>
     </head>
     <body>
-        <main>
-            <div class="banner">
-                <div class="firstdiv"><h2>Logo Clínica</h2></div>
-                <div class="secunddiv"><h1>Pagina de Pacientes</h1></div>
+        <h1>Lista de Pacientes</h1>
+        <div class="list">
+            <div class="header">
+                <div class="search-container">
+                    <img class="search-icon" src="../../assets/icons/search-icon.svg">
+                    <input class="search-bar" type="text">
+                </div>
+                <a class="add-container" href="../form/index.html" title="Adicionar Cliente">
+                    <img class="add-icon" src="../../assets/icons/add-icon.svg">
+                </a>
             </div>
-            <h2 style="background-color: #999; margin: auto;">Lista de Pacientes</h2>
-            <ul>
-                <li>
-                    <a href="../patient-card/index.html">João da Silva</a>
-                </li>
-                <hr>
-                <li>
-                    <a href="../patient-card/index.html">Maria dos Santos</a>
-                </li>
-                <hr>
-                <li>
-                    <a href="../patient-card/index.html">José de santos Silva</a>
-                </li>
-            </ul>
-            <br>
-            <div class="add-user">
-                <a href="../form/index.html"> <p>Cadastrar Paciente</p> </a>
+            <div class="patients">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>CPF</th>
+                            <th>CNS</th>
+                            <th>ID</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr onClick="location.href='../patient-card/index.html'">
+                            <td>Elthon Allex de Oliveira</td>
+                            <td>141.264.684.65</td>
+                            <td>318 715 4409 233</td>
+                            <td>29.713.711-6</td>
+                        </tr>
+                        <tr onClick="location.href='../patient-card/index.html'">
+                            <td>Elthon Allex de Oliveira</td>
+                            <td>141.264.684.65</td>
+                            <td>318 715 4409 233</td>
+                            <td>29.713.711-6</td>
+                        </tr>
+                        <tr onClick="location.href='../patient-card/index.html'">
+                            <td>Elthon Allex de Oliveira</td>
+                            <td>141.264.684.65</td>
+                            <td>318 715 4409 233</td>
+                            <td>29.713.711-6</td>
+                        </tr>
+                        <tr onClick="location.href='../patient-card/index.html'">
+                            <td>Elthon Allex de Oliveira</td>
+                            <td>141.264.684.65</td>
+                            <td>318 715 4409 233</td>
+                            <td>29.713.711-6</td>
+                        </tr>
+                        <tr onClick="location.href='../patient-card/index.html'">
+                            <td>Elthon Allex de Oliveira</td>
+                            <td>141.264.684.65</td>
+                            <td>318 715 4409 233</td>
+                            <td>29.713.711-6</td>
+                        </tr>
+                        <tr onClick="location.href='../patient-card/index.html'">
+                            <td>Elthon Allex de Oliveira</td>
+                            <td>141.264.684.65</td>
+                            <td>318 715 4409 233</td>
+                            <td>29.713.711-6</td>
+                        </tr>
+                        <tr onClick="location.href='../patient-card/index.html'">
+                            <td>Elthon Allex de Oliveira</td>
+                            <td>141.264.684.65</td>
+                            <td>318 715 4409 233</td>
+                            <td>29.713.711-6</td>
+                        </tr>
+                        <tr onClick="location.href='../patient-card/index.html'">
+                            <td>Elthon Allex de Oliveira</td>
+                            <td>141.264.684.65</td>
+                            <td>318 715 4409 233</td>
+                            <td>29.713.711-6</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-        </main>
+        </div>
     </body>
 </html>

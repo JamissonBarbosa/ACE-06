@@ -7,13 +7,13 @@ html {
 }
 
 body {
-    padding: 2% 2% 0% 2%;
     height: 100%;
+    display: flex;
 }
 
 h1 {
     font-size: 2.2em;
-    color: #2f54e9;
+    color: #0064de;
     font-family: Montserrat !important;
 }
 
@@ -58,7 +58,7 @@ a.add-container {
     margin-left: 15px;
     align-items: center;
     justify-content: center;
-    background-color: #2f54e9;
+    background-color: #0064de;
 }
 
 img.search-icon, img.add-icon {
@@ -89,7 +89,7 @@ table {
     font-family: sans-serif;
     min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    border-bottom: 2px solid #2f54e9;
+    border-bottom: 2px solid #0064de;
 }
 
 tr {
@@ -99,7 +99,7 @@ tr {
 
 table thead tr {
     color: #ffffff;
-    background-color: #2f54e9;
+    background-color: #0064de;
 }
 
 table th, table td {
@@ -125,5 +125,5 @@ table tbody tr:last-of-type {
 
 table tbody tr.active-row {
     font-weight: bold;
-    color: #2f54e9;
+    color: #0064de;
 }

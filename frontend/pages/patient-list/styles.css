@@ -17,6 +17,11 @@ h1 {
     font-family: Montserrat !important;
 }
 
+div.profile > img {
+    height: 128px;
+    width: 128px;
+}
+
 div.list {
     display: flex;
     padding: 1.5%;

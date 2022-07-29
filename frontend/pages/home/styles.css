@@ -1,0 +1,73 @@
+@import url(../global-styles.css);
+
+html {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    height: 100%;
+    display: flex;
+}
+
+h1 {
+    font-size: 2.2em;
+    color: #0064de;
+    font-family: Montserrat !important;
+}
+
+div.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+div.search-container {
+    display: flex;
+    height: 25px;
+    padding: 7px;
+    width: 96%;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color: white;
+    justify-content: space-evenly;
+    border: 1px solid rgb(206, 206, 206);
+}
+
+a.add-container {
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-left: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0064de;
+}
+
+img.search-icon, img.add-icon {
+    height: 20px;
+}
+
+img.add-icon {
+    filter: invert(100%);
+}
+
+input.search-bar {
+    font-size: 1.1em;
+    border-radius: 10px;
+    height: 100%;
+    outline: 0;
+    border: none;
+    width: 97%;
+}
+
+input.search-bar:focus {
+    outline: 0;
+}

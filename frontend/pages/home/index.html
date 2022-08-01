@@ -7,7 +7,6 @@
         <link rel="icon" href="../../assets/icons/favicon.png">
         <link rel="stylesheet" href="styles.css">
         <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script src="script.js"></script>
         <title>Pacientes</title>
     </head>
     <body>
@@ -36,8 +35,41 @@
                 <a href="../login/index.html">Sair</a>
             </section>
             <section class="content">
-                <h1>Início</h1>
+                <div class="fast-infos">
+                    <h1>Informações Rápidas</h1>
+                    <div class="info">
+                        <div class="card red">
+                            <h1>132</h1>
+                            <h4>Procedimentos</h4>
+                            <h4>de Hoje</h4>
+                        </div>
+                        <div class="card blue">
+                            <h1>592</h1>
+                            <h4>Procedimentos</h4>
+                            <h4>da Semana</h4>
+                        </div>
+                        <div class="card yellow">
+                            <h1>2953</h1>
+                            <h4>Procedimentos</h4>
+                            <h4>de Mês</h4>
+                        </div>
+                        <div class="card green">
+                            <h1>12.3%</h1>
+                            <h4>De Aumento Desde</h4>
+                            <h4>o Último Mês</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="more-info">
+                    <h1>Informações Detalhadas</h1>
+                    <div class="info">
+                        <div id="chart"></div>
+                        <div id="chart2"></div>
+                    </div>
+                </div>
             </section>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <script src="script.js"></script>
     </body>
 </html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../../assets/icons/favicon.png">
+        <link rel="stylesheet" href="styles.css">
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <title>Pacientes</title>
+    </head>
+    <body>
+        <div class="left-side">
+            <section class="menu">
+                <div class="profile">
+                    <img src="https://avatars.githubusercontent.com/u/52017988?s=400&u=b5d60fa8393ebb96fd3415743b123f7b76cebb54&v=4">
+                    <h3 class="name">Alan Duda</h3>
+                    <h3 class="email">alan.duda@gmail.com</h3>
+                </div>
+                <div class="itens">
+                    <div class="item active">
+                        <img src="../../assets/icons/house-icon.svg">
+                        <span>Home</span>
+                    </div>
+                    <div class="item" onClick="location.href='../patient-list/index.html'">
+                        <img src="../../assets/icons/list-icon.svg">
+                        <span>Pacientes</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="right-side">
+            <section class="header">
+                <img src="../../assets/icons/human-logo.png">
+                <a href="../login/index.html">Sair</a>
+            </section>
+            <section class="content">
+                <div class="fast-infos">
+                    <h1>Informações Rápidas</h1>
+                    <div class="info">
+                        <div class="card red">
+                            <h1>132</h1>
+                            <h4>Procedimentos</h4>
+                            <h4>de Hoje</h4>
+                        </div>
+                        <div class="card blue">
+                            <h1>592</h1>
+                            <h4>Procedimentos</h4>
+                            <h4>da Semana</h4>
+                        </div>
+                        <div class="card yellow">
+                            <h1>2953</h1>
+                            <h4>Procedimentos</h4>
+                            <h4>de Mês</h4>
+                        </div>
+                        <div class="card green">
+                            <h1>12.3%</h1>
+                            <h4>De Aumento Desde</h4>
+                            <h4>o Último Mês</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="more-info">
+                    <h1>Informações Detalhadas</h1>
+                    <div class="info">
+                        <div id="chart"></div>
+                        <div id="chart2"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
